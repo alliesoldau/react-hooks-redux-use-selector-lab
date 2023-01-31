@@ -10,7 +10,6 @@ function usersReducer(state = initialState, action) {
         ...state,
         users: [...state.users, action.payload],
       };
-
     default:
       return state;
   }
